@@ -1,5 +1,107 @@
-video {
+
+@font-face {
+    font-family: "Epilogue";
+    src: url(fonts/Epilogue-Regular.ttf) format("truetype");
+}
+
+* {
+    display: grid;
+    font-family: Epilogue, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+head {
+    font-size: 0;
+}
+
+#back {
+    display: grid;
+}
+
+#vid1,
+#cover,
+#pfp,
+#main {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#vid1 {
+    object-fit: fill;
+}
+
+#cover {
+    width:100%;
+    height:100%;
+}
+
+#pfp {
+    width:13%;
+    height:18%;
+}
+
+#namebar {
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: left;
+    align-items:self-start;
+    height:20%;
+    width: 85%;
+    margin-left: 15%;
+}
+
+h1 {
+    grid-row: 1;
+    font-size: 6rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+#main {
+    display: grid;
+}
+
+.btn,
+.btnimg {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.btn{
+    width:18%;
+    height:8%;
+}
+
+#btn1 {
+    margin-top: 14%;
+    margin-left: 12%;
+}
+
+#btn2 {
+    margin-top: 22%;
+    margin-left: 18%;
+}
+
+#btn3 {
+    margin-top: 30%;
+    margin-left: 26%;
+}
+
+#btn4 {
+    margin-top: 38%;
+    margin-left: 35%;
+}
+
+#btn5 {
+    margin-top: 46%;
+    margin-left: 47%;
+}
+
+#btn6 {
+    margin-top: 54%;
+    margin-left: 63%;
+}
+
+.btnimg {
     width: 100%;
     height: 100%;
-    padding: 0%;
 }
