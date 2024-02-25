@@ -55,11 +55,6 @@ head {
     height:18%;
 }
 
-#pfpcontent {
-    width: 100%;
-    height:100%;
-}
-
 #namebar {
     grid-row: 1;
     grid-column: 1;
@@ -95,6 +90,7 @@ h1 {
 .btn{
     width:18%;
     height:8%;
+    margin-left: 8%;
 }
 
 .btnimg{
@@ -104,32 +100,30 @@ h1 {
 
 #btn1 {
     margin-top: 15%;
-    margin-left: 13%;
 }
 
 #btn2 {
     margin-top: 22%;
-    margin-left: 23%;
 }
 
 #btn3 {
     margin-top: 29%;
-    margin-left: 33%;
 }
 
 #btn4 {
     margin-top: 36%;
-    margin-left: 43%;
 }
 
 #btn5 {
     margin-top: 43%;
-    margin-left: 53%;
 }
 
 #btn6 {
     margin-top: 50%;
-    margin-left: 63%;
+}
+
+#btn7 {
+    margin-top: 57%;
 }
 
 .btnimg {

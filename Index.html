@@ -4,41 +4,41 @@
 	<meta charset="utf-8"/>
  	<title>Steve9hw2.ca</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src = "https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/Index.js"></script>
-    <link rel="icon" type="image/png" sizes="48x48" href="../images/PFP2022.png">
+    <!-- <link rel="icon" type="image/png" sizes="48x48" href="../images/PFP2022.png"> -->
 </head>
 <body>
 <div id="back">
-		<video id="vid1" width = "100%" height = "100%" autoplay loop>
-			<source src="videos/SpaceAsteroids.mp4" type = "video/mp4">
-		</video>
-		<img id="cover" src="images/bgcut.png" type="image/png">
-		<img id="pfp" src="images/PFP2022.png" type="image/png">
+		<!-- <video id="vid1" width = "100%" height = "100%" autoplay loop> -->
+			<!-- <source src="videos/SpaceAsteroids.mp4" type = "video/mp4"> -->
+		<!-- </video> -->
+		<img id="cover" src="images/backgrounds/cuts/bgcutmain.png" type="image/png">
+		<img id="pfp" onclick="location.href='Index.html'" src="images/PFP2022.png" type="image/png">
 		<div id="namebar">
 			<h1>STEVE</h1>
 			<h1 id="username">9HW2</h1>
 			<h1 id="lastname">BERTHIAUME</h1>
 		</div>
 		<div id="main">
-			<div id="btn1" class="btn">
-				<image id="btn1img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			<div id="btn2" class="btn">
-				<image id="btn2img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			<div id="btn3" class="btn">
-				<image id="btn3img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			<div id="btn4" class="btn">
-				<image id="btn4img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			<div id="btn5" class="btn">
-				<image id="btn5img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			<div id="btn6" class="btn">
-				<image id="btn6img" class="btnimg" src="images/button.png" type="image/png"></image>
-			</div>
-			</image>
+			<a id="btn1" class="btn">
+				<img onclick="location.href='games.html'" src="images/button_games.png" id="btn1img" class="btnimg"></image>
+			</a>
+			<a id="btn2" class="btn">
+				<image onclick="location.href='3d.html'" src="images/button_3d.png" id="btn2img" class="btnimg"></image>
+			</a>
+			<a id="btn3" class="btn">
+				<image onclick="location.href='misc.html'" id="btn3img" class="btnimg" src="images/button_misc.png" type="image/png"></image>
+			</a>
+			<a id="btn4" class="btn">
+				<image onclick="location.href='docs.html'" id="btn4img" class="btnimg" src="images/button_docs.png" type="image/png"></image>
+			</a>
+			<a id="btn5" class="btn">
+				<image onclick="location.href='about.html'" id="btn5img" class="btnimg" src="images/button_about.png" type="image/png"></image>
+			</a>
+			<a id="btn6" class="btn">
+				<image onclick="location.href='contact.html'" id="btn6img" class="btnimg" src="images/button_contact.png" type="image/png"></image>
+			</a>
 		</div>
 </div>
 		
