@@ -26,13 +26,20 @@ head {
 #vid1,
 #cover,
 #pfp,
-#main {
+#main,
+.bgimg {
     grid-row: 1;
     grid-column: 1;
 }
 
 #vid1 {
     object-fit: fill;
+}
+
+.bgimg {
+    object-fit: fill;
+    width: 100%;
+    height:100%
 }
 
 #cover {
@@ -81,21 +88,31 @@ h1 {
     display: grid;
 }
 
+#games{
+    color: #4aabb6;
+}
+
 .btn,
-.btnimg {
+.btnimg,
+.btnico {
     grid-row: 1;
     grid-column: 1;
 }
 
 .btn{
-    width:18%;
+    width:24%;
     height:8%;
-    margin-left: 8%;
+    margin-left: 4%;
 }
 
 .btnimg{
-    width:100%;
+    width:80%;
     height:100%;
+}
+
+.btnico{
+    height:100%;
+    margin-left: 79%;
 }
 
 #btn1 {
@@ -124,9 +141,4 @@ h1 {
 
 #btn7 {
     margin-top: 57%;
-}
-
-.btnimg {
-    width: 100%;
-    height: 100%;
 }

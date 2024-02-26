@@ -45,6 +45,16 @@ p {
     grid-column: 1;
 }
 
+#title,
+#projicon {
+    grid-row: 1;
+}
+
+#projicon {
+    grid-column: 2;
+    height: 30%;
+}
+
 #vid1 {
     object-fit: fill;
 }
@@ -99,6 +109,10 @@ h1 {
 .btnimg {
     grid-row: 1;
     grid-column: 1;
+}
+
+.rootfruittitle {
+    color: #762c64;
 }
 
 .btn{
