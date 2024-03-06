@@ -1,0 +1,38 @@
+///////////////////////////////////////////////////////////////////////////////
+
+                              ~ Music Credits ~
+  Below, full credits for music used in Lemmings are detailed. The format goes:
+Name (Release date - Platforms)
+Track title / alternate title (Composer)
+  Composers are listed if said information is publicly available, title may be
+a level title if the track isn't given a name.
+
+1 - 1 :
+Crash Bandicoot: N. Sane Trilogy (June 30, 2017 - PS4, XB1, Switch, PC)
+Jungle Rollers / Rolling Stones (Josh Mancell)
+
+1 - 2:
+Super Monkey Ball (2001 - GCN)
+Desert (Hidenori Shoji)
+
+2 - 1 :
+Crash Bandicoot: The Wrath of Cortex (October 29, 2001 - PS2, XBX, GCN)
+H2 Oh No (Andy Blythe & Marten Joustra)
+
+3 - 1 :
+Sonic Robo Blast 2 (v2.2) (2019 - PC (www.srb2.org))
+Techno Hill Zone Act 1 (Stefan "Stuf" Rimalia & Shane Mychal Sexton)
+> The OST for SRB2 can be found at the following link:
+https://www.srb2.org/download/soundtrack/
+
+
+[...]
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////

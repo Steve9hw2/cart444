@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: "Epilogue";
+    src: url("fonts/Epilogue-Regular.ttf") format("truetype");
+} 
+
+* {
+    display: grid;
+    font-family: Epilogue, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ALL VERSIONS */
+
+button {
+    background-color: rgba(255,255,255, 0);
+}
+
+head {
+    font-size: 0;
+}
+
+#back {
+    display: grid;
+}
+
+#vid1,
+#cover,
+#pfp,
+#main,
+.bgimg {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#vid1 {
+    object-fit: fill;
+}
+
+.bgimg {
+    object-fit:fill;
+    width: 100%;
+    height:100%
+}
+
+#cover {
+    width:100%;
+    height:100%;
+}
+
+/* MOBILE SCREENS */
+@media screen and (max-width: 600px) {
+
+}
+
+/* OTHER SCREENS */
+@media screen and (min-width: 601px) {
+
+}
+
+#pfp {
+    width:13%;
+    height:18%;
+}
+
+#namebar {
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: left;
+    align-items:self-start;
+    height:20%;
+    width: 85%;
+    margin-left: 15%;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    grid-row: 1;
+    font-size: 6rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+#main {
+    display: grid;
+}
+
+#games{
+    color: #f3b867;
+}
+
+.btn,
+.btnimg,
+.btnico {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.btn{
+    width:24%;
+    height:8%;
+    margin-left: 4%;
+}
+
+.btnimg{
+    width:80%;
+    height:100%;
+}
+
+.btnico{
+    height:100%;
+    margin-left: 79%;
+}
+
+#btn0 {
+    margin-left: 12%;
+    margin-top: 7%;
+}
+
+#btn1 {
+    margin-top: 15%;
+}
+
+#btn2 {
+    margin-top: 22%;
+}
+
+#btn3 {
+    margin-top: 29%;
+}
+
+#btn4 {
+    margin-top: 36%;
+}
+
+#btn5 {
+    margin-top: 43%;
+}
+
+#btn6 {
+    margin-top: 50%;
+}
+
+#btn7 {
+    margin-top: 57%;
+}

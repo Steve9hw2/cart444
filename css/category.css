@@ -37,7 +37,7 @@ head {
 }
 
 .bgimg {
-    object-fit: fill;
+    object-fit:fill;
     width: 100%;
     height:100%
 }
@@ -113,6 +113,11 @@ h1 {
 .btnico{
     height:100%;
     margin-left: 79%;
+}
+
+#btn0 {
+    margin-left: 12%;
+    margin-top: 7%;
 }
 
 #btn1 {
