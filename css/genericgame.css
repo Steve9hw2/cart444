@@ -20,7 +20,7 @@
 
 p {
     width: 40%;
-    height: 10%;
+    height: 10vh;
     padding-left: 60%;
     padding-top: 30%;
 }
@@ -53,16 +53,17 @@ p {
 
 #projicon {
     grid-column: 2;
-    height: 30%;
+    height: 40%;
 }
 
 #vid1 {
     object-fit: fill;
+    height:100vh;
 }
 
 #cover {
     width:100%;
-    height:100%;
+    height:100vh;
 }
 
 /* MOBILE SCREENS */
@@ -76,7 +77,7 @@ p {
 }
 
 #pfp {
-    width:13%;
+    width:10%;
     height:18%;
 }
 
@@ -117,7 +118,7 @@ h1 {
 }
 
 .btn{
-    width:18%;
+    width:14%;
     height:8%;
     margin-top: 40%;
 }

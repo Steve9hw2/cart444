@@ -30,7 +30,7 @@
 
 p {
     width: 40%;
-    height: 10%;
+    height: 10vh;
     padding-left: 60%;
     padding-top: 30%;
 }
@@ -63,16 +63,17 @@ p {
 
 #projicon {
     grid-column: 2;
-    height: 30%;
+    height: 40%;
 }
 
 #vid1 {
     object-fit: fill;
+    height: 100vh;
 }
 
 #cover {
     width:100%;
-    height:100%;
+    height:100vh;
 }
 
 /* MOBILE SCREENS */
@@ -86,8 +87,8 @@ p {
 }
 
 #pfp {
-    width:13%;
-    height:18%;
+    width:10%;
+    height:18vh;
 }
 
 #namebar {
@@ -95,14 +96,14 @@ p {
     grid-column: 1;
     justify-content: left;
     align-items:self-start;
-    height:20%;
+    height:20vh;
     width: 85%;
     margin-left: 15%;
 }
 
 a {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 h1 {
@@ -127,14 +128,9 @@ h1 {
 }
 
 .btn{
-    width:18%;
-    height:8%;
+    width:14%;
+    height:8vh;
     margin-top: 40%;
-}
-
-.btnimg{
-    width:100%;
-    height:100%;
 }
 
 #btn1 {
@@ -149,8 +145,7 @@ h1 {
     margin-left: 80%;
 }
 
-
-.btnimg {
-    width: 100%;
-    height: 100%;
+.btnimg{
+    width:100%;
+    height:8vh;
 }

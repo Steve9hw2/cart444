@@ -38,7 +38,7 @@ head {
 
 #cover {
     width:100%;
-    height:100%;
+    height:100vh;
 }
 
 /* MOBILE SCREENS */
@@ -52,13 +52,13 @@ head {
 }
 
 #pfp {
-    width:13%;
+    width:10%;
     height:18%;
 }
 
 #pfpcontent {
     width: 100%;
-    height:100%;
+    height:100vh;
 }
 
 #namebar {
@@ -73,7 +73,7 @@ head {
 
 a {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 h1 {
@@ -94,13 +94,8 @@ h1 {
 }
 
 .btn{
-    width:18%;
-    height:8%;
-}
-
-.btnimg{
-    width:100%;
-    height:100%;
+    width:13%;
+    height:8vh;
 }
 
 #btn1 {
@@ -109,31 +104,31 @@ h1 {
 }
 
 #btn2 {
-    margin-top: 22%;
-    margin-left: 23%;
+    margin-top: 20%;
+    margin-left: 22%;
 }
 
 #btn3 {
-    margin-top: 29%;
-    margin-left: 33%;
+    margin-top: 25%;
+    margin-left: 31%;
 }
 
 #btn4 {
-    margin-top: 36%;
-    margin-left: 43%;
+    margin-top: 30%;
+    margin-left: 40%;
 }
 
 #btn5 {
-    margin-top: 43%;
-    margin-left: 53%;
+    margin-top: 35%;
+    margin-left: 49%;
 }
 
 #btn6 {
-    margin-top: 50%;
-    margin-left: 63%;
+    margin-top: 40%;
+    margin-left: 58%;
 }
 
 .btnimg {
     width: 100%;
-    height: 100%;
+    height: 7vh;
 }
